@@ -4,11 +4,19 @@
 
 //GLOBAL VARIABLES
 /* global $ */
-
-$("#shoot").click(function()
-{
-    $("").val("");
-});
+var userChoice = "";
+var computerChoice = "";
+var winner = "";
+var randomNumber = Math.random();
 
 // DOCUMENT READY FUNCTION BELOW
+
+$("button").click(function() {
+  $("#userChoice").text($("#input").val());
+});
+
+if(randomNumber ){
+    
+}
+
 
